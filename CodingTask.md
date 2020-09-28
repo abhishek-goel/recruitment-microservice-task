@@ -15,14 +15,14 @@ Vancouver Credit Union (VCU) is in the initial stages of building their Credit C
 You've been hired to build a ReSTful API that will serve as the middle tier for an application that will be used by both customers and VCU administrators. The rewards data available in the attached data.sql will serve as your back-end. Your may not make any changes to the data model. Your task is to create a Java based Microservice that exposes endpoints which enable the following:
 
 1. Given a customer, provide a list of all rewards that are currently available to that customer.
-   - This endpoint will be used to displat the available rewards to a customer upon landing on the homepage of the VCU Credit Card Rewards Redemption application.
+   - This endpoint will be used to display the available rewards to a customer upon landing on the homepage of the VCU Credit Card Rewards Redemption application.
    - Remember to provide available rewards for all of the customer's credit cards.
    - A reward is deemed available if it is not expired and the customer has enough `RewardBalance` to be able to redeem that reward.
 1. Given a customer and a specific credit card, redeem the customer's available rewards balance for the *_highest_* valued reward.
    - This endpoint will drive an experimental feature called _One Click Redemption_ that will allow customers to get the best rewards.
    - Redeeming a reward means to decrement the `RewardBalance` and update the `LastRedemptionDate`.
 1. Create endpoints that allow a VCU Administrator to add and update Reward Options.
-   - Since these endpoints will be limited to VCU Administrators, there will need to be an different security setup for these endpoints. However, you don't need to worry about that aspect.
+   - Clearly, these endpoints will be for VCU-internal use only and the security setup required is out of scope for this exercise. 
 
 ## Requirements
 1. Use Java version 7 or higher
