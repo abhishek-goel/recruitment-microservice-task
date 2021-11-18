@@ -12,7 +12,7 @@ Vancouver Credit Union (VCU) is in the initial stages of building their Credit C
 
 ## Your Task
 
-You've been hired to build a ReSTful API that will serve as the middle tier for an application that will be used by both customers and VCU administrators. The rewards data available in the attached data.sql will serve as your back-end. Your may not make any changes to the data model. Your task is to create a Java based Microservice that exposes endpoints which enable the following:
+You've been hired to build a ReSTful API that will serve as the middle tier for an application that will be used by both customers and VCU administrators. The rewards data available in the attached [data.sql](https://github.com/abhishek-goel/recruitment-microservice-task/blob/master/data.sql) will serve as your back-end. Your may not make any changes to the data model. Your task is to create a Java based Microservice that exposes endpoints which enable the following:
 
 1. Given a customer, provide a list of all rewards that are currently available to that customer.
    - This endpoint will be used to display the available rewards to a customer upon landing on the homepage of the VCU Credit Card Rewards Redemption application.
