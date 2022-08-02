@@ -1,6 +1,6 @@
 ## Purpose
 
-Welcome to *`<Company Name>`*! We're glad that you're considering joining our team and would like to get to know you a little better. Our aim is to guage your problem solving skills and coding experience. We don't believe in having you implement a complex algorithm to solve some tricky academic problem with an interviewer scruitinizing you. Instead, we would like you to solve the kind of problems we encounter at *`<Company Name>`* on a daily basis. The following coding exercise is designed to do exactly that.
+Welcome to *`<Company Name>`*! We're glad that you're considering joining our team and would like to get to know you a little better. Our aim is to gauge your problem solving skills and coding experience. We don't believe in having you implement a complex algorithm to solve some tricky academic problem with an interviewer scruitinizing you. Instead, we would like you to solve the kind of problems we encounter at *`<Company Name>`* on a daily basis. The following coding exercise is designed to do exactly that.
   
 ## Process
 
